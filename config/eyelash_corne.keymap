@@ -27,6 +27,8 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
+&lt { flavor = "hold-preferred"; };
+
 / {
     behaviors {
         td0: td0 {
