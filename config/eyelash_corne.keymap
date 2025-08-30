@@ -66,9 +66,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y  &kp U      &kp I     &kp O      &kp P       &kp BSPC
-&mo 1             &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &kp J      &kp K     &kp L      &kp SEMI    &kp SQT
-&mt LCTRL ESCAPE  &kp Z  &kp Z  &kp X     &kp C  &kp V        &kp SPACE              &kp DOWN              &kp B  &kp N      &kp M     &kp COMMA  &kp PERIOD  &kp ESC
+&kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y  &kp U      &kp I     &kp O      &kp P            &kp BSPC
+&mo 1             &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &kp J      &kp K     &kp L      &kp RIGHT_SHIFT  &kp SEMICOLON
+&mt LCTRL ESCAPE  &kp Z  &kp Z  &kp X     &kp C  &kp V        &kp SPACE              &kp DOWN              &kp B  &kp N      &kp M     &kp COMMA  &kp PERIOD       &kp SLASH
                                 &kp LGUI  &mo 1  &lt 3 SPACE                                               &mo 3  &kp SPACE  &kp RALT
             >;
 
@@ -80,7 +80,7 @@
             bindings = <
 &trans  &kp LC(T)      &kp LC(W)  &kp F19  &kp F5      &kp F17                                      &mmv MOVE_UP                     &kp LC(HOME)  &kp LC(HOME)  &kp LC(LEFT)    &kp LC(RIGHT)  &kp LC(C_AC_SEND)  &kp LC(LS(LEFT))
 &trans  &kp LC(LS(T))  &kp F14    &kp DEL  &kp LA(F4)  &kp F18                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans        &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT          &kp LS(MINUS)
-&trans  &kp LA(HOME)   &trans     &trans   &trans      &kp LG(LS(S))  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans        &kp HOME      &kp PG_UP       &kp PAGE_DOWN  &kp END            &kp PG_DN
+&trans  &kp LA(HOME)   &trans     &trans   &trans      &kp LG(LS(S))  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans        &kp HOME      &kp PG_UP       &kp PAGE_DOWN  &kp END            &trans
                                   &trans   &trans      &trans                                                                        &kp INS       &kp DEL       &trans
             >;
 
@@ -90,10 +90,10 @@
         layer_number {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)                            &mmv MOVE_UP                     &kp CARET  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BSLH          &kp GRAVE
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PIPE          &kp TILDE
-                                            &trans            &trans            &none                                                                  &kp RET    &trans        &trans
+&trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)                            &mmv MOVE_UP                     &kp PLUS         &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BSLH          &kp GRAVE
+&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &trans                    &mmv MOVE_DOWN                   &kp KP_MULTIPLY  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PIPE          &kp TILDE
+                                            &trans            &trans            &none                                                                  &kp RET          &kp N0        &kp DOT
             >;
 
             sensor-bindings = <&scroll_encoder>;
