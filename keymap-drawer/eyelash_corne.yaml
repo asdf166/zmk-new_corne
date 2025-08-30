@@ -27,8 +27,8 @@ layers:
   - J
   - K
   - L
+  - $$mdi:apple-keyboard-shift$$
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - Z
   - Z
@@ -42,7 +42,7 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - $$mdi:keyboard-esc$$
+  - {t: /, s: '?'}
   - LGUI
   - special
   - {t: '$$mdi:keyboard-space$$', h: Fn}
@@ -91,7 +91,7 @@ layers:
   - PG UP
   - PgDn
   - END
-  - PG DN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -106,7 +106,7 @@ layers:
   - Ctl+4
   - {t: Ctl+5, s: Ctl+%}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - ^
+  - +
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -135,7 +135,7 @@ layers:
   - {t: Sft+5, s: Sft+%}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - _
+  - KP MULTIPLY
   - '1'
   - '2'
   - '3'
@@ -145,8 +145,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: )}
+  - {t: ., s: '>'}
   Fn:
   - '&studio_unlock'
   - F1
