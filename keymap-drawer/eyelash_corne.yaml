@@ -43,9 +43,9 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - LGUI
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - Fn
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
@@ -192,10 +192,10 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [16, 17]
-  k: RIGHT GUI
+  k: $$mdi:apple-keyboard-option$$
