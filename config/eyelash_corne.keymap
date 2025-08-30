@@ -78,10 +78,10 @@
         layer_action {
             display-name = "special";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                         &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
+&trans  &kp LC(T)      &kp LC(W)  &kp F19  &kp F5      &kp F17                                      &mmv MOVE_UP                     &kp LC(HOME)  &kp LC(HOME)  &kp LC(LEFT)    &kp LC(RIGHT)  &kp LC(C_AC_SEND)  &kp LC(LS(LEFT))
+&trans  &kp LC(LS(T))  &kp F14    &kp DEL  &kp LA(F4)  &kp F18                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans        &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT          &kp LS(MINUS)
+&trans  &kp LA(HOME)   &trans     &trans   &trans      &kp LG(LS(S))  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans        &kp HOME      &kp PG_UP       &kp PAGE_DOWN  &kp END            &kp PG_DN
+                                  &trans   &trans      &trans                                                                        &kp INS       &kp DEL       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
