@@ -37,6 +37,17 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
+        space_cadet: space_cadet {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SPACE_CADET";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            hold-trigger-key-positions = <29 26>;
+            hold-while-undecided;
+            tapping-term-ms = <200>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
