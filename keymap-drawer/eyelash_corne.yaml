@@ -61,7 +61,7 @@ layers:
   - Ctl+HOME
   - Ctl+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
-  - Ctl+AC SEND
+  - Ctl+END
   - Ctl+Sft+$$mdi:arrow-left-bold$$
   - {type: held}
   - Ctl+Sft+T
