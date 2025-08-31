@@ -41,7 +41,7 @@
         space_cadet: space_cadet {
             compatible = "zmk,behavior-hold-tap";
             label = "SPACE_CADET";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <29 26>;
