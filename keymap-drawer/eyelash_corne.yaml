@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-esc$$', h: LEFT WIN}
   - Q
   - W
   - E
@@ -27,10 +27,10 @@ layers:
   - J
   - K
   - L
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ), h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: (, h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
