@@ -45,9 +45,8 @@
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <29 26>;
-            tapping-term-ms = <200>;
-            hold-while-undecided-linger;
-            hold-while-undecided;
+            tapping-term-ms = <0>;
+            retro-tap;
         };
     };
 
