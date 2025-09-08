@@ -120,10 +120,10 @@
         layer_system {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&bt BT_CLR      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &trans        &trans        &trans        &trans        &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                            &trans        &trans        &trans                                                                 &trans       &trans     &trans
+&studio_unlock  &kp F1        &kp F2        &kp F3             &kp F4        &kp F5                                         &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&trans          &trans        &trans        &trans             &trans        &trans           &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                            &kp C_VOLUME_DOWN  &kp K_MUTE    &kp C_VOLUME_UP                                                                 &trans       &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
