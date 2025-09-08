@@ -191,7 +191,7 @@ layers:
   - SCROLLLOCK
   - PAUSE BREAK
   - $$mdi:volume-low$$
-  - MUTE
+  - $$mdi:volume-off$$
   - $$mdi:volume-high$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
