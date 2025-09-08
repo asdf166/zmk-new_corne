@@ -27,7 +27,10 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
-&lt { flavor = "hold-preferred"; };
+&lt {
+    flavor = "hold-preferred";
+    hold-while-undecided-linger;
+};
 
 / {
     behaviors {
