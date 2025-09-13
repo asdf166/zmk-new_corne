@@ -79,8 +79,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+HOME
   - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Sft+S
