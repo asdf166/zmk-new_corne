@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - SCROLLLOCK
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PAUSE BREAK
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
