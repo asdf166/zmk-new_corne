@@ -102,7 +102,7 @@
 &trans  &kp LC(T)      &kp LC(W)     &kp F19  &kp F5      &kp F17                                      &mmv MOVE_UP                     &kp LC(HOME)  &kp LC(HOME)  &kp LC(LEFT)    &kp LC(RIGHT)  &kp LC(END)  &kp LC(LS(LEFT))
 &trans  &kp LC(LS(T))  &kp F14       &kp DEL  &kp LA(F4)  &kp F18                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS     &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT    &kp LS(MINUS)
 &trans  &trans         &kp LA(HOME)  &trans   &trans      &kp LG(LS(S))  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans        &kp HOME      &kp PG_UP       &kp PAGE_DOWN  &kp END      &trans
-                                     &trans   &trans      &trans                                                                        &kp INS       &kp DEL       &trans
+                                     &trans   &kp F20     &trans                                                                        &kp INS       &kp DEL       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
