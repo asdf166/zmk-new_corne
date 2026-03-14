@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - Fn
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
+  - Ctl+Alt+PgDn
   special:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+T
