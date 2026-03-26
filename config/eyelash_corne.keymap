@@ -97,7 +97,7 @@
         };
 
         layer_action {
-            display-name = "special";
+            display-name = "Fn";
             bindings = <
 &trans  &kp LC(T)      &kp LC(W)     &kp F19  &kp F5      &kp F17                                      &mmv MOVE_UP                     &kp LC(HOME)  &kp LC(HOME)  &kp LC(LEFT)    &kp LC(RIGHT)  &kp LC(END)  &kp LC(LS(LEFT))
 &trans  &kp LC(LS(T))  &kp F14       &kp DEL  &kp LA(F4)  &kp F18                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS     &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT    &kp LS(MINUS)
@@ -109,7 +109,7 @@
         };
 
         layer_number {
-            display-name = "SYMBOL";
+            display-name = "Num";
             bindings = <
 &trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)                            &mmv MOVE_UP                     &kp PLUS         &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BSLH          &kp GRAVE
@@ -121,7 +121,7 @@
         };
 
         layer_system {
-            display-name = "Fn";
+            display-name = "Sys";
             bindings = <
 &studio_unlock  &kp F1        &kp F2        &kp F3             &kp F4        &kp F5                                         &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
