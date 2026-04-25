@@ -125,7 +125,7 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - {t: \, s: '|'}
+  - Sft+~
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+1
@@ -140,7 +140,7 @@ layers:
   - '2'
   - '3'
   - '|'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
