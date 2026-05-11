@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - Sys
   - $$mdi:keyboard-space$$
-  - Ctl+Alt+PgDn
+  - Sft+F21
   Fn:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+T
@@ -91,7 +91,7 @@ layers:
   - PG UP
   - PgDn
   - END
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - F21
   - {t: '$$mdi:transfer$$', type: trans}
