@@ -80,7 +80,7 @@
 
         haneng {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <16 17>;
+            key-positions = <23 24>;
             slow-release;
         };
 
