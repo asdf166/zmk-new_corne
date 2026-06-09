@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: ;, s: ':'}
-  - {t: RIGHT GUI, h: Fn}
+  - {t: '$$mdi:apple-keyboard-option$$', h: Fn}
   - A
   - S
   - D
